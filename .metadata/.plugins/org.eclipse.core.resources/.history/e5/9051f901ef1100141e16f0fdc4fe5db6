@@ -1,0 +1,33 @@
+package zork;
+
+import java.awt.Point;
+
+public class point
+{
+	public int y;
+	public int y2;
+	public int x;
+	public int x2;
+	public point (int x,int y)
+	{
+		this.x = y;
+		this.y = y;
+	}
+	public boolean equals(Point other) 
+	{
+		if(this.x == other.x && this.y == other.y)
+		return true;
+		else return false;
+	}
+	public void poiint1 (int x2,int y2)
+	{
+		this.x2 = y2;
+		this.y2 = y2;
+	}
+	public boolean equals1(Point other) 
+	{
+		if(this.x2 == other.x && this.y2 == other.y)
+		return true;
+		else return false;
+	}
+}

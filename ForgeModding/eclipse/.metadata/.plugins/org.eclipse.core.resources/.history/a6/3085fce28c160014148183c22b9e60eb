@@ -1,0 +1,36 @@
+package com.camp.item;
+ 
+import net.minecraft.item.Item;
+
+import com.camp.main.*;
+
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+ 
+public class ItemManager {
+     
+    public static void mainRegistry() {
+        initializeItem();
+        registerItem1();
+    }
+     
+    public static Item customItem;
+	static ClientProxy proxy = new ClientProxy();
+          
+    public static void initializeItem() {
+        customItem = new CustomItem();
+    }
+          
+    public static void registerItem1() {
+         GameRegistry.registerItem(customItem, customItem.getUnlocalizedName());
+    }
+              
+    public static void registerItem() {
+         GameRegistry.registerItem(customItem, customItem.getUnlocalizedName());
+    }
+    public static void PreLoad(FMLPreInitializationEvent PreEvent) {
+        ItemManager.mainRegistry();   
+        proxy.registerRenderThings();
+    }
+         
+}

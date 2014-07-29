@@ -1,0 +1,36 @@
+package NBHgames;
+
+import java.util.Random;
+
+public class Hunter extends Combatant
+{
+	String name;
+	point position;
+	public Hunter(String n, point p) 
+	{
+		super(n,p);
+	}
+	
+	Random r = new Random();
+	
+	public void move(String input)
+		{
+
+		if(position.x > 1)
+			{
+				position.x += 1;
+			}
+		if(position.y > 1)
+			{
+				position.y += 1;
+			}
+		if(position.x > 1)
+			{
+				position.x -= 1;
+			}
+		if(position.y > 1)
+			{
+				position.y -= 1;
+			}
+		}
+}

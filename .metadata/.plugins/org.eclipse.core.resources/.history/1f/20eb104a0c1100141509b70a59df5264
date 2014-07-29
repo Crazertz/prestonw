@@ -1,0 +1,12 @@
+package s;
+
+public class booaa {
+	public static void main(String[]args)
+	{
+		int days = 365;
+		int m = 100;
+		int l = 3;
+		int r = 14;
+		System.out.println(days - (m - (r - l)));
+	}
+}

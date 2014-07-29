@@ -1,0 +1,26 @@
+package bbb;
+
+
+import java.util.Random;
+
+public class dd 
+{
+	public static void main(String[] args)
+	{
+		Random r = new Random();
+		
+		float switchWin = 0;
+		float stayWin = 0;
+		
+		for(int i = 0; i < 1000; i++)
+		{
+			int cardoor = r.nextInt(3);
+			int choosedoor = r.nextInt(3);
+			
+			if(cardoor == choosedoor)
+			{
+				stayWin ++;
+			}
+		}
+	}
+}

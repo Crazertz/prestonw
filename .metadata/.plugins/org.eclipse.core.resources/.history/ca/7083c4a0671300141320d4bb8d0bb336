@@ -1,0 +1,37 @@
+package NBHgames;
+
+import NBHgames.point;
+
+public class Hunter 
+{
+	String name;
+	point position;
+	public Hunter(String string, point point) {
+		this.name = string;
+		this.position = point;
+	}
+	
+	public void move(String input)
+		{
+		String w = "w";
+		String e = "e";
+		String s = "s";
+		String q = "q";
+		if(input.equals(w))
+			{
+				position.x += 1;
+			}
+		if(input.equals(e))
+			{
+				position.y += 1;
+			}
+		if(input.equals(s))
+			{
+				position.x -= 1;
+			}
+		if(input.equals(q))
+			{
+				position.y -= 1;
+			}
+		}
+}

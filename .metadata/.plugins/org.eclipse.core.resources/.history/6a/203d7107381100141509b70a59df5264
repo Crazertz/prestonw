@@ -1,0 +1,36 @@
+
+public class TAG
+{
+	public static void main(String []args)
+	{
+		int BaseHealth = 10000;
+		int PlayerSheldDurability = 20;
+		int PlayerArmorHealth = 35;
+		int PlayerHealth = 100;
+		int PlayerHealth1 = 100;
+		boolean PlayerDamageBoieknife2 = false;
+		int PlayerDamageBoieknife = 5;
+		int PlayerDamageDesertEagle = 10;
+		int DesertEagleDurability = 30;
+		int BoieknifeDurability = 10;
+		int Wepons = 50;
+		int CoalStoreageHealth = 500;
+		int OilStoreageHealth = 500; 
+		int MaxCoaStorage = 500;
+		int MaxOilStorage = 500;
+		int StartingOil = 50;
+		int OilDrilHealth = 300;
+		int CoalMineHealth = 250;
+		int StartingCoal = 50;
+		int DefenceSystems = 200;
+		int ForceFieldHealth = 300;
+		
+		PlayerHealth -= PlayerDamageBoieknife;
+		PlayerHealth1 -= PlayerDamageDesertEagle;
+		System.out.println("!!YOU HAVE BEN STABED!!, " + "Your health is now " + PlayerHealth + "%");
+		if(PlayerDamageBoieknife2 = true)
+		{
+		System.out.println("!!YOU HAVE BEN SHOT!!, " + "Your health is now " + PlayerHealth1 + "%");
+		}
+	}
+}

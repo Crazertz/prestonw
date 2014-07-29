@@ -1,0 +1,9 @@
+package pratic;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class bank {
+	String name = JOptionPane.showInputDialog("Please enter your name");
+
+}

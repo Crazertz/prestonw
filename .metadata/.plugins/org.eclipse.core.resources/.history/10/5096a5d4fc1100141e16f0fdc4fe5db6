@@ -1,0 +1,38 @@
+package zork;
+
+public class Player
+{
+	String name;
+	poiint position;
+	public Player(String string, poiint poiint) {
+		// TODO Auto-generated constructor stub
+	}
+	public void player(String name, poiint position)
+	{
+		this.name = name;
+		this.position = position;
+	}
+	public void move(String input)
+	{
+		String w = null;
+		String e = null;
+		String s = null;
+		String q = null;
+		if(input.equals(w))
+		{
+			position.x = 10;
+		}
+		if(input.equals(e))
+		{
+			position.y = 10;
+		}
+		if(input.equals(s))
+		{
+			position.x1 = -10;
+		}
+		if(input == q)
+		{
+			position.y = -10;
+		}
+	}
+}

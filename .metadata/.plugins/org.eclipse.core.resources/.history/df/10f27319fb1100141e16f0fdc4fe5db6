@@ -1,0 +1,13 @@
+package println;
+
+public class big 
+{
+
+	public static int main(String[] args) 
+		{
+		int square Object x;
+			return (x * x);
+			}
+		}
+
+}

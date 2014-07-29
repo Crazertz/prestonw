@@ -1,0 +1,8 @@
+package com.camp.main;
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = "StringLibrary.MODID", name = "MR.crazertz MoreFoodMod", version = "1.0")
+public class MainRegistry 
+{
+	
+}

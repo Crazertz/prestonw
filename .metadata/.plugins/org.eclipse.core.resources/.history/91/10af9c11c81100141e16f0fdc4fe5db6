@@ -1,0 +1,26 @@
+package pratic;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class bank {
+	private static String String;
+
+	public static void main(String[] args)
+	{
+		String name1 = null;
+		name1 = JOptionPane.showInputDialog("Please enter your name");
+		if (name1 != null)
+		{
+			JOptionPane.showMessageDialog(null, "Hi " + name1 + " click OK to create a new bank account" );
+			String name3 = null;
+			name3 = JOptionPane.showInputDialog("Please enter your new username");
+			if (name3 != null);
+			String name4 = null;
+			name4 = JOptionPane.showInputDialog("Please enter your new password");
+			if (name4 != null);
+			JOptionPane.showMessageDialog()
+		}
+	}
+}
+s

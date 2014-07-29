@@ -1,0 +1,36 @@
+package NBHgames;
+
+import java.util.Random;
+
+
+public class Bear extends Combatant 
+{
+	String name;
+	point position;
+	public Bear(String n, point p)
+	{
+		super(n,p);
+	}
+	
+	Random r = new Random();
+	
+	public void move()
+		{
+		if(position.x > 5)
+			{
+				position.x += 5;
+			}
+		if(position.y > 5)
+			{
+				position.y += 5;
+			}
+		if(position.x > 5)
+			{
+				position.x -= 5;
+			}
+		if(position.y > 5)
+			{
+				position.y -= 5;
+			}
+		}
+}

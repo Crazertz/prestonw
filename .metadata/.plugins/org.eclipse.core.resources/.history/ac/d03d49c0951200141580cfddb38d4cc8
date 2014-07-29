@@ -1,0 +1,13 @@
+package zork;
+
+public class main
+{
+	private static Player p;
+	private static Treasure t;
+
+	public static void main(String []args)
+	{
+		p = new Player("skippy", new poiint (0,0));
+		t = new Treasure(null);
+	}
+}

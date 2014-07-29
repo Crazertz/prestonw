@@ -1,0 +1,13 @@
+package pratic;
+
+public class main
+
+{
+
+	public static void main(String[] args)
+	{
+		praticemap p = new praticemap();
+		System.out.println(p.add(2,3));
+	}
+
+}

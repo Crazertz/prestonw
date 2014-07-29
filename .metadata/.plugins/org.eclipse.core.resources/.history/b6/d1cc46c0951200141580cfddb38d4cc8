@@ -1,0 +1,37 @@
+package zork;
+
+public class Player
+{
+	String name;
+	poiint position;
+	public Player(String string, poiint poiint) {
+	}
+		public void player(String name, poiint position)
+	{
+		this.name = name;
+		this.position = position;
+	}
+	public void move(String input)
+		{
+		String w = null;
+		String e = null;
+		String s = null;
+		String q = null;
+		if(input.equals(w))
+			{
+				position.x = 10;
+			}
+		if(input.equals(e))
+			{
+				position.y = 10;
+			}
+		if(input.equals(s))
+			{
+				position.x2 = -10;
+			}
+		if(input.equals(q))
+			{
+				position.y2 = -10;
+			}
+		}
+}

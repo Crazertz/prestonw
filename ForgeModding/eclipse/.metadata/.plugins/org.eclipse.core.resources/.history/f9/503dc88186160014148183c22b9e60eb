@@ -1,0 +1,27 @@
+package com.camp.main;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = "StringLibrary.MODID", name = "MR.crazertz's MoreFoodMod", version = "1.0")
+public class MainRegistry 
+{
+	@SidedProxy(clientSide = "com.camp.main.ClientProxy", serverSide = "com.camp.main.ServerProxy")
+	public static void PreLoad(FMLPreInitializationEvent PreEvent) 
+	{
+		 
+    }
+	
+    public static void Load(FMLInitializationEvent Event) 
+    {    
+    	
+    }   
+    
+    public static void PostLoad(FMLPostInitializationEvent PostEvent) 
+    {
+    	
+    }
+}

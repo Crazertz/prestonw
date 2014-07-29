@@ -1,0 +1,16 @@
+package pratic;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class bank {
+	private static String String;
+
+	public static void main(String[] args)
+	{
+		String name;
+		String name2 = null;
+		String = name2; JOptionPane.showInputDialog("Please enter your name.");
+		JOptionPane.showMessageDialog(null,"Wellcome " + name2);
+	}
+}

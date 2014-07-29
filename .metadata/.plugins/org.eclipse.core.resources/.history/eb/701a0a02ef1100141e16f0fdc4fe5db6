@@ -1,0 +1,10 @@
+package zork;
+
+public class Treasure 
+{
+	point location;
+	public Treasure (point location)
+	{
+		this.location = location;
+	}
+}
