@@ -1,6 +1,6 @@
-[12:28:44] [main/INFO]: Setting user: Player312
-[12:28:45] [Client thread/INFO]: LWJGL Version: 2.9.0
-[12:28:45] [Client thread/ERROR]: Couldn't set icon
+[10:34:56] [main/INFO]: Setting user: Player375
+[10:34:57] [Client thread/INFO]: LWJGL Version: 2.9.0
+[10:34:57] [Client thread/ERROR]: Couldn't set icon
 javax.imageio.IIOException: Can't read input file!
 	at javax.imageio.ImageIO.read(Unknown Source) ~[?:1.8.0_11]
 	at net.minecraft.client.Minecraft.readImage(Minecraft.java:641) ~[Minecraft.class:?]
@@ -13,12 +13,11 @@ javax.imageio.IIOException: Can't read input file!
 	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_11]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[12:28:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MR.crazertz's MoreFoodMod, FMLFileResourcePack:Example Mod
-[12:28:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:28:48] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4096_CustomItem.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_CustomItem.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+[10:35:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MR.crazertz's MoreFoodMod, FMLFileResourcePack:Example Mod
+[10:35:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:35:00] [Client thread/ERROR]: Using missing texture, unable to load cw:textures/items/pair.png
+java.io.FileNotFoundException: cw:textures/items/pair.png
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
@@ -33,14 +32,13 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_C
 	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_11]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[12:28:48] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:28:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MR.crazertz's MoreFoodMod, FMLFileResourcePack:Example Mod
-[12:28:49] [Sound Library Loader/INFO]: Sound engine started
-[12:28:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:28:49] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4096_CustomItem.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_CustomItem.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
+[10:35:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:35:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MR.crazertz's MoreFoodMod, FMLFileResourcePack:Example Mod
+[10:35:00] [Sound Library Loader/INFO]: Sound engine started
+[10:35:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:35:00] [Client thread/ERROR]: Using missing texture, unable to load cw:textures/items/pair.png
+java.io.FileNotFoundException: cw:textures/items/pair.png
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
 	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
@@ -58,48 +56,49 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_C
 	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_11]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[12:28:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:28:50] [Sound Library Loader/INFO]: Sound engine started
-[12:28:50] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[12:28:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[12:28:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[12:28:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[12:28:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[12:28:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
-[12:28:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[12:28:56] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[12:28:56] [Server thread/INFO]: Generating keypair
-[12:28:56] [Server thread/INFO]: Converting map!
-[12:28:56] [Server thread/INFO]: Scanning folders...
-[12:28:56] [Server thread/INFO]: Total conversion count is 0
-[12:28:56] [Server thread/INFO]: Preparing start region for level 0
-[12:28:57] [Server thread/INFO]: Preparing spawn area: 9%
-[12:28:58] [Server thread/INFO]: Preparing spawn area: 22%
-[12:28:59] [Server thread/INFO]: Preparing spawn area: 37%
-[12:29:00] [Server thread/INFO]: Preparing spawn area: 55%
-[12:29:01] [Server thread/INFO]: Preparing spawn area: 69%
-[12:29:02] [Server thread/INFO]: Preparing spawn area: 87%
-[12:29:03] [Server thread/INFO]: Player312[local:E:a4a5fdc9] logged in with entity id 267 at (-162.5, 64.0, 260.5)
-[12:29:03] [Server thread/INFO]: Player312 joined the game
-[12:29:06] [Client thread/INFO]: Warning: Clientside chunk ticking took 152 ms
-[12:29:07] [Server thread/INFO]: Saving and pausing game...
-[12:29:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:29:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:29:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:29:09] [Server thread/INFO]: Player312 has just earned the achievement [Taking Inventory]
-[12:29:09] [Client thread/INFO]: [CHAT] Player312 has just earned the achievement [Taking Inventory]
-[12:29:11] [Client thread/INFO]: Warning: Clientside chunk ticking took 109 ms
-[12:29:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.grass
-[12:29:17] [Server thread/INFO]: Saving and pausing game...
-[12:29:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:29:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:29:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:29:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[12:29:17] [Server thread/INFO]: Stopping server
-[12:29:17] [Server thread/INFO]: Saving players
-[12:29:17] [Server thread/INFO]: Saving worlds
-[12:29:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:29:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:29:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:29:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
-[12:29:24] [Client thread/INFO]: Stopping!
+[10:35:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:35:01] [Sound Library Loader/INFO]: Sound engine started
+[10:35:01] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[10:35:02] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[10:35:03] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[10:35:03] [Server thread/INFO]: Generating keypair
+[10:35:06] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[10:35:07] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[10:35:08] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[10:35:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[10:35:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[10:35:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[10:35:10] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[10:35:10] [Server thread/INFO]: Generating keypair
+[10:35:10] [Server thread/INFO]: Converting map!
+[10:35:10] [Server thread/INFO]: Scanning folders...
+[10:35:10] [Server thread/INFO]: Total conversion count is 0
+[10:35:10] [Server thread/WARN]: Unable to find spawn biome
+[10:35:11] [Server thread/INFO]: Preparing start region for level 0
+[10:35:12] [Server thread/INFO]: Preparing spawn area: 16%
+[10:35:13] [Server thread/INFO]: Preparing spawn area: 33%
+[10:35:14] [Server thread/INFO]: Preparing spawn area: 50%
+[10:35:15] [Server thread/INFO]: Preparing spawn area: 68%
+[10:35:16] [Server thread/INFO]: Preparing spawn area: 85%
+[10:35:17] [Server thread/INFO]: Player375[local:E:5de5ba3d] logged in with entity id 183 at (133.5, 67.0, -72.5)
+[10:35:17] [Server thread/INFO]: Player375 joined the game
+[10:35:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.bat.takeoff
+[10:35:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.bat.takeoff
+[10:35:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.game.creative
+[10:35:20] [Server thread/INFO]: Player375 has just earned the achievement [Taking Inventory]
+[10:35:20] [Client thread/INFO]: [CHAT] Player375 has just earned the achievement [Taking Inventory]
+[10:35:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.sand
+[10:35:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:dig.sand
+[10:35:39] [Server thread/INFO]: Saving and pausing game...
+[10:35:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:35:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:35:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:35:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[10:35:42] [Server thread/INFO]: Stopping server
+[10:35:42] [Server thread/INFO]: Saving players
+[10:35:42] [Server thread/INFO]: Saving worlds
+[10:35:42] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[10:35:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[10:35:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[10:35:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[10:35:43] [Client thread/INFO]: Stopping!
