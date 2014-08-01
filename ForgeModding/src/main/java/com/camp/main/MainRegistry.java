@@ -8,7 +8,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = "StringLibrary.MODID", name = "MR.crazertz's MoreFoodMod", version = "1.0")
+@Mod(modid = StringLibrary.MODID, name = StringLibrary.name, version = StringLibrary.version)
 public class MainRegistry 
 {
 	@SidedProxy(clientSide = "com.camp.main.ClientProxy", serverSide = "com.camp.main.ServerProxy")

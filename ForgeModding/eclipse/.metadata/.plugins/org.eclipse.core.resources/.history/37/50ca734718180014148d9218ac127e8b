@@ -1,0 +1,21 @@
+public class ItemManager{
+ 
+    public static void mainRegistry(){
+        initializeItem();
+        registerItem();
+    }
+ 
+    public static Item customItem;    
+    public static Item customFood;
+ 
+    public static void initializeItem() {
+        customItem = new CustomItem();
+        customFood = new CustomFood(8, 0.6F, false).setCreativeTab(CreativeTabs.tabMisc).setUnlocalizedName("CustomFood").setTextureName(StringLibrary.MODID + ":custom_food");
+    }
+ 
+    public static void registerItem(){
+        GameRegistry.registerItem(customItem, customItem.getUnlocalizedName());
+        GameRegistry.registerItem(customFood, customFood.getUnlocalizedName());
+    }
+ 
+}

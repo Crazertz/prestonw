@@ -1,0 +1,6 @@
+package assets.cm.textures.items;
+
+public class Snippet {
+	public static CustomItem customItem;
+}
+
