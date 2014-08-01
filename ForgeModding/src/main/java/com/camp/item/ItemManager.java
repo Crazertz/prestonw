@@ -17,8 +17,8 @@ public class ItemManager{
     public static Item salt;    
     public static Item customFood;
  
-    public static void initializeItem() {
-        customFood = new salt();
+    public static void initializeItem() 
+    {
         customFood = new CustomFood(8, 0.6F, false).setCreativeTab(CreativeTabs.tabMisc).setUnlocalizedName("CustomFood").setTextureName(StringLibrary.MODID + ":coconut");
     }
  
